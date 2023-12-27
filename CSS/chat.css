@@ -1,0 +1,142 @@
+body {
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#logout-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.button .btn {
+  padding: 10px 20px;
+  background-color: #cddcef;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button .btn:hover {
+  background-color: #7DAAEF;
+}
+.chat-container {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 110px;
+  padding: 20px;
+  box-shadow: 20px 15px 13px #0003;
+}
+
+.chat-header {
+  color: #000;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  text-shadow: 1px 4px 5px #999;
+  margin: -30px 0 -10px 0;
+}
+
+.chat-messages {
+  height: 200px;
+  overflow-y: scroll;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-input {
+  display: flex;
+  margin-top: 20px;
+}
+
+.chat-input input[type="text"] {
+  flex: 1;
+  padding: 3px 0 5px 25px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #e6e6e6;
+  font-size: 20px;
+}
+
+.chat-input input[type="text"]::placeholder {
+  font-weight: bold;
+  font-size: 17px;
+  color: #adadad;
+}
+
+.chat-input button {
+  padding: 10px;
+  color: #535353;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.chat-input button i {
+  font-size: 20px;
+}
+
+.chat-input button:hover {
+  color: #777;
+}
+
+.chat-input button:focus {
+  outline: none;
+}
+
+footer {
+  width: 77%;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  border-top-right-radius: 55% 165px;
+  border-style: solid;
+  background-color: #dae7f9;
+}
+
+footer a {
+  display: inline-block;
+  padding: 10px 15px 0;
+  text-decoration: none;
+  color: #000;
+}
+
+footer a:hover{
+  color: #000dffec;
+}
+
+footer .icon {
+  text-align: center;
+  line-height: 0;
+  font-size: 25px;
+}
+
+footer .icon i {
+  font-size: 45px;
+}
+
+footer .container .col-6 {
+  float: left;
+  padding-left: 75px;
+}
+
+.logo {
+  position: absolute;
+  bottom: 0;
+  margin: -40px 1200px;
+  width: 200px;
+  height:200px;
+}

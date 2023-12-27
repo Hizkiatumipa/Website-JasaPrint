@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAPRI</title>
+    <link rel="stylesheet" href="../CSS/signin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="../img/logo.png">
+    <link href="/path/to/font/Fontspring-DEMO-theseasons-reg.ttf" rel="stylesheet">
+</head>
+<body>
+    <form action="../php/signin.php" method="POST">
+        <div class="signup-box">
+            <h1>Sign Up</h1>
+            <div class="signup-item">
+                <i class="fa-regular fa-envelope"></i>
+                <input id="sign-up-email" type="text" placeholder="Email" name="email">
+            </div>
+            <div class="signup-item">
+                <i class="fa-solid fa-user"></i>
+                <input id="sign-up-username" type="text" placeholder="Username" name="username">
+            </div>
+            <div class="signup-item">
+                <i class="fa-solid fa-lock"></i>
+                <input id="sign-up-password" type="password" placeholder="Password" name="password">
+            </div>
+            <div class="signup-item">
+                <i class="fa-solid fa-lock"></i>
+                <input id="sign-up-password2" type="password" placeholder="Confirm password" name="confirm_password">
+            </div>
+            <div class="button">
+                <button class="btn" type="submit" value="sign-up">Sign Up</button>
+            </div>
+            <!-- <p>Have an account?<a href="#" class="login-link">Login</a></p> -->
+        </div>
+    </form>   
+    <script src="../JS/login.js"></script>
+</body>
+</html>

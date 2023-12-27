@@ -1,0 +1,126 @@
+body {
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.rating-form {
+  font-family: Arial, sans-serif;
+  width: 500px;
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 60px;
+  box-shadow: 20px 15px 13px #0003;
+}
+
+.rating-form h2 {
+  font-size: 30px;
+  text-shadow: 1px 4px 5px #999;
+}
+
+.stars input[type="radio"] {
+  display: none;
+}
+
+.stars label {
+  font-size: 70px;
+  color: #ddd;
+  cursor: pointer;
+  transition: color 0.2s;
+  display: inline-block;
+}
+
+.stars label:hover,
+.stars input[type="radio"]:checked ~ label {
+  color: #ffcc00;
+  transition: 1.5s;
+}
+
+.stars label:hover ~ label,
+.stars input[type="radio"]:checked ~ label ~ label {
+  color: #ffcc00;
+  transition: 1.5s;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  resize: none;
+  background-color: #f2f2f2;
+  margin: 15px 0 15px 0;
+}
+
+button {
+  background-color: #858585;
+  color: white;
+  padding: 10px 50px;
+  margin-bottom: -10px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+footer {
+  width: 77%;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  border-top-right-radius: 55% 165px;
+  border-style: solid;
+  background-color: #dae7f9;
+}
+
+footer a {
+  display: inline-block;
+  padding: 10px 15px 0;
+  text-decoration: none;
+  color: #000;
+}
+
+footer a:hover{
+  color: #000dffec;
+}
+
+footer .icon {
+  text-align: center;
+  line-height: 0;
+  font-size: 25px;
+}
+
+footer .icon i {
+  font-size: 45px;
+}
+
+footer .container .col-6 {
+  float: left;
+  padding-left: 75px;
+}
+
+.logo {
+  position: absolute;
+  bottom: 0;
+  margin: -40px 1200px;
+  width: 200px;
+  height:200px;
+}

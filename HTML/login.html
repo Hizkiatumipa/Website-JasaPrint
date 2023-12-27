@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAPRI</title>
+    <link rel="stylesheet" href="../CSS/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="../img/logo.png">
+    <link href="/path/to/font/Fontspring-DEMO-theseasons-reg.ttf" rel="stylesheet">
+</head>
+<body>
+
+    <div class="login">
+        <div class="containerlogin">
+            <div class="headerlogin">
+                <header>Login</header>
+            </div>
+            <form id="login-form" action="../php/login.php" method="POST">
+                <div class="input-field">
+                    <input type="text" id="login-name" class="input" placeholder="Name" name="login-name">
+                </div>
+                <div class="input-field">
+                    <input type="password" id="login-password" class="input" placeholder="Password" name="login-password">
+                </div>
+                <div class="input-field">
+                    <input type="submit" class="submit" value="Let's Get Started">
+                </div>
+                <p>Don't have an account?<a href="signin.html"> Sign in</a></p>
+            </form>
+        </div>
+    </div>    
+    <!-- <script src="../JS/login.js"></script> -->
+</body>
+</html>
